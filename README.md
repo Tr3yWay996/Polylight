@@ -1,1 +1,1 @@
-This is the remnant put back together with a nice UI and refactoring of an old extention i had made once to customize my hilight color and to add a rainbow effect, I hope you enjoy using it just as much as I do 
+This is the remnant put back together with a nice UI and refactoring of an old extention i had made once to customize my highlight color and to add a rainbow effect, I hope you enjoy using it just as much as I do 
