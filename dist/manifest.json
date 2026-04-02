@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Polylight",
+  "version": "3.0.0",
+  "description": "Smooth rainbow text selection highlighting for every website.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Polylight"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/content.ts-Cv2Mi9uP.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rainbow-highlight@polylight.local",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": []
+      }
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "assets/content.ts-Cv2Mi9uP.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
