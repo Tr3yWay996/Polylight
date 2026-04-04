@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #141416;
+  --surface: #1c1c20;
+  --raised: #242428;
+  --hover: #2c2c32;
+  --inset: #111113;
+
+  --fg: #ededef;
+  --fg2: #8e8e96;
+  --fg3: #5a5a62;
+
+  --accent: #e8a855;
+  --accent-dim: #c9883a;
+  --accent-glow: rgba(232, 168, 85, 0.15);
+
+  --border: rgba(255, 255, 255, 0.06);
+  --border-hi: rgba(255, 255, 255, 0.12);
+  --border-active: rgba(232, 168, 85, 0.4);
+
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+
+  font-family: 'DM Sans', system-ui, sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+  color-scheme: dark;
+  color: var(--fg);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  max-height: 580px;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.08) transparent;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar { width: 3px; }
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track { background: transparent; }
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 99px; }
