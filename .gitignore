@@ -3,3 +3,5 @@ node_modules/
 *.xpi
 *.pem
 dist/
+.vscode
+*.zip

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Polylight",
-  "version": "2.0.0",
-  "description": "A smooth rainbow (RGB) text selection highlighting for every website.",
+  "version": "3.0.0",
+  "description": "Smooth rainbow text selection highlighting for every website.",
   "action": {
     "default_popup": "index.html",
     "default_title": "Polylight"
@@ -20,7 +20,7 @@
       "id": "rainbow-highlight@polylight.local",
       "strict_min_version": "109.0",
       "data_collection_permissions": {
-        "required": []
+        "required": ["none"]
       }
     }
   }
