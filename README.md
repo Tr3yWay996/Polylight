@@ -17,6 +17,10 @@ This is incredibly heavy for browser layout engines to handle and carries an inh
 
 ## Installation
 
+### From repo releases
+
+You can find the pre-packaged .CRX and .XPI files for both Chrome and Firefox right [here](https://github.com/Tr3yWay996/Polylight/releases/tag/V2.0)
+
 ### Building from source
 
 You will need [Node.js](https://nodejs.org/) installed to build the project.
