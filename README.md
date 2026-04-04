@@ -43,7 +43,7 @@ A `dist/` directory will be created, this is the unpacked extension folder you'l
 3. Click **Load unpacked**
 4. Select the `dist/` folder
 
-> Chrome may warn you about unsigned extensions. This is expected — just dismiss the warning.
+> Chrome may warn you about unsigned extensions. This is expected, just dismiss the warning.
 
 ---
 
@@ -61,7 +61,7 @@ Firefox's stable release enforces add-on signing and **will not** allow permanen
 **Permanent install (Firefox Developer Edition / Nightly only):**
 1. Go to `about:config`
 2. Set `xpinstall.signatures.required` to `false`
-3. Then follow the temporary install steps above — the extension will now persist
+3. Then follow the temporary install steps above, the extension will now persist.
 
 For more details, see [Mozilla's official documentation on unsigned add-ons](https://support.mozilla.org/en-US/kb/add-on-signing-in-firefox#w_what-are-my-options-if-i-want-to-use-an-unsigned-add-on-advanced-user).
 
