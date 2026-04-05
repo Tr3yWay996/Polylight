@@ -1,3 +1,14 @@
+# DISCLAMER, PLEASE READ CAREFULLY NOT TO BE SURPRISE IF IT DOESN'T WORK, THANK YOU ALL
+## Install Firefox Developper to test the extention, follow the guide under to know how to proceed with the instalation (both permanent and temporary) of polylight once that's done.
+
+### TLDR: Unsigned CRX cannot be installed on chrome, and when forcefully installed, they can't be enabled, if you use the unpacked extentio on Windows - Chrome, it will not render the interface and nothing else will work because it is unpacked.
+
+
+### Full story: Since this extention is not yet on the chrome web-store, meaning it isnt signed by them, it doesn't allow you to install Polylight as a .CRX file, "But Darky, that's fine, i can load unpacked extentions" half-wrong, because when unpacked on Windows Chrome (atleast for now until i'm sure it doesn't happen with a signed extention on the marketplace ofc) Vite, thhe framework i actually used to build it breaks and cause an error on the app rendering, meaning you cannot see anything, nor would it even do it's basic rainbow function properly because of how windows handles the other JS scripts inside.
+
+
+
+
 # Polylight
 
 Hello and welcome to **Polylight**, Polylight is a multi browser extension that lets you have a rainbow text highlighting color effect, don't specially want a rainbow highlight ? Worry not, you have the choice between solid colors and the RGB mode, in the solid color mode you have 6 presets with a section made to let you customize the color as you want it to be.
@@ -53,7 +64,7 @@ A `dist/` directory will be created, this is the unpacked extension folder you'l
 
 ### Loading in Firefox
 
-Firefox's stable release enforces add-on signing and **will not** allow permanently loading unsigned extensions.
+Firefox's stable release enforces add-on signing and **will not** allow permanently loading unsigned extensions. Install Firefox Dev instead for that
 
 **Temporary install (any Firefox):**
 1. Go to `about:debugging#/runtime/this-firefox`
@@ -62,7 +73,7 @@ Firefox's stable release enforces add-on signing and **will not** allow permanen
 
 > ⚠️ Temporary installs are removed when Firefox closes.
 
-**Permanent install (Firefox Developer Edition / Nightly only):**
+**Permanent install ([Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/) only):**
 1. Go to `about:config`
 2. Set `xpinstall.signatures.required` to `false`
 3. Then follow the temporary install steps above, the extension will now persist.
