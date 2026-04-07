@@ -1,8 +1,5 @@
 # DISCLAMER, PLEASE READ CAREFULLY NOT TO BE SURPRISE IF IT DOESN'T WORK, THANK YOU ALL
-## Install Firefox Developper to test the extention, follow the guide under to know how to proceed with the instalation (both permanent and temporary) of polylight once that's done.
-
-### TLDR: Unsigned CRX cannot be installed on chrome, and when forcefully installed, they can't be enabled, if you use the unpacked extentio on Windows - Chrome, it will not render the interface and nothing else will work because it is unpacked.
-
+### TLDR: Unsigned CRX cannot be installed on chrome, and when forcefully installed, they can't be enabled, if you use the unpacked extentio on Windows - Chrome, it will not render the interface and nothing else will work because it is unpacked. If you want to try out Polylight easilly and are on firefox already then you can just install it using [this link](https://addons.mozilla.org/fr/firefox/addon/polylight/). Otherwise, nothing new for Chromium users.
 
 ### Full story: Since this extention is not yet on the chrome web-store, meaning it isnt signed by them, it doesn't allow you to install Polylight as a .CRX file, "But Darky, that's fine, i can load unpacked extentions" half-wrong, because when unpacked on Windows Chrome (atleast for now until i'm sure it doesn't happen with a signed extention on the marketplace ofc) Vite, thhe framework i actually used to build it breaks and cause an error on the app rendering, meaning you cannot see anything, nor would it even do it's basic rainbow function properly because of how windows handles the other JS scripts inside.
 
