@@ -3,9 +3,14 @@
   "name": "Polylight",
   "version": "3.0.0",
   "description": "Smooth rainbow text selection highlighting for every website.",
+  "icons": {
+    "128": "icons-1.28x.png",
+    "512": "icons-5.12x.png"
+  },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Polylight"
+    "default_title": "Polylight",
+    "default_icon": "icons-1.28x.png"
   },
   "content_scripts": [
     {
